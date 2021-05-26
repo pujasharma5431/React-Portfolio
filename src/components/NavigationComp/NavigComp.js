@@ -24,12 +24,15 @@ export default class NavigComp extends Component {
             <div>
                 <Router>
             <div style={{
-              backgroundColor:"#006064",
+              backgroundColor:"#727272",
+              
+  justifyContent: "center"
               
             }}>
                 <Navbar collapseOnSelect expand="lg" variant="dark">
   <Navbar.Brand style={{
-    fontSize:32
+    fontSize:"30px"
+   
   }}>Puja Sharma</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
