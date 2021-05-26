@@ -47,7 +47,7 @@ export default class Projects extends Component {
 										target="_blank"
 										startIcon={<LanguageIcon />}
 										variant="text"
-										color="secondary">
+										color="#727272">
 										Learn More{' '}
 									</Button>
 								</div>
@@ -76,7 +76,7 @@ export default class Projects extends Component {
 											target="_blank"
 											startIcon={<GitHub />}
 											variant="text"
-											color="secondary">
+											color="#727272">
 											Git{' '}
 										</Button>
 									</div>
@@ -107,7 +107,7 @@ export default class Projects extends Component {
 									target="_blank"
 									startIcon={<LanguageIcon />}
 									variant="text"
-									color="secondary">
+									color="#727272">
 									Learn More
 								</Button>
 							</CardActions>
@@ -135,7 +135,7 @@ export default class Projects extends Component {
 									target="_blank"
 									startIcon={<GitHub />}
 									variant="text"
-									color="secondary">
+									color="#727272">
 									Git
 								</Button>
 							</CardActions>
