@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import My from '../../assets/my.png'
-import {GitHub} from '@material-ui/icons';
 import Button from '@material-ui/core/Button';
 import {ButtonGroup, Grid} from '@material-ui/core';
 import Myy from '../../assets/mero.png'
@@ -9,7 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Box from "@material-ui/core/Box";
-import { shadows } from '@material-ui/system';
+import {Link} from "react-router-dom";
 
 
 export default class Home extends Component {
@@ -28,7 +26,7 @@ export default class Home extends Component {
                             fontFamily: "sans-serif",
                             fontSize: "39px",
                             paddingLeft: "80px",
-                            paddingTop:"90px"
+                            paddingTop: "90px"
                         }}>
                             Hello!! Everyone
                         </div>
@@ -38,7 +36,7 @@ export default class Home extends Component {
                             fontFamily: "sans-serif",
                             fontSize: "22px",
                             paddingLeft: "78px",
-                            paddingTop:"5px"
+                            paddingTop: "5px"
                         }}>
                             this is Puja Sharma enthusiastic <br/> Web Developer
                         </div>
@@ -49,28 +47,37 @@ export default class Home extends Component {
                         }}>
 
                             <div>
-                                <Button href="#"
+                                <Link to="/about" style={{
+                                    textDecoration:"none"
+                                }}>
+                                    <Button
 
                                         variant="contained" style={{
-                                    backgroundColor: "rgb(114,114,114)",
-                                    margin: "5px"
+                                        backgroundColor: "rgb(114,114,114)",
+                                        margin: "5px",
+                                        padding:"10px"
 
-                                }}
-                                >About </Button>
+                                    }}
+                                    >About </Button>
+                                </Link>
                             </div>
-                            
-                           
+
+
                             <div>
-                            
-                                <Button href="#"
+                                <Link to="/contact" style={{
+                                    textDecoration:"none"
+                                }}>
+
+                                    <Button
 
                                         variant="contained" style={{
-                                    backgroundColor: "rgb(114,114,114)",
-                                    margin: "5px",
-                                    paddingLeft: "10px",
+                                        backgroundColor: "rgb(114,114,114)",
+                                        margin: "5px",
+                                        padding:"10px",
 
-                                }}
-                                >Contact </Button>
+                                    }}
+                                    >Contact </Button>
+                                </Link>
                             </div>
                         </ButtonGroup>
 
@@ -154,13 +161,13 @@ export default class Home extends Component {
                         // xs="none"
                     >
                         <div className={"photo"} style={{
-                           
-                           clipPath: " circle(33.1% at 50% 50%)"
+
+                            clipPath: " circle(33.1% at 50% 50%)"
 
                         }}>
                             <Box display={{xs: "none", md: "block", sm: "block"}}>
                                 <img src={Myy}/>
-                                  
+
                             </Box>
                         </div>
                     </Grid>

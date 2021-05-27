@@ -1,48 +1,55 @@
-.card1{
+.card1 {
     margin: 10px;
     max-width: 345px;
 }
 
-.card2{
-    margin: 10px;
-  
-
-max-width: 345px;
-}
-.card3{
+.card2 {
     margin: 10px;
 
-max-width: 345px;
+
+    max-width: 345px;
 }
-.card4{
+
+.card3 {
     margin: 10px;
 
-max-width: 345px;
+    max-width: 345px;
 }
 
-.image1{
-    height:250px;
+.card4 {
+    margin: 10px;
 
+    max-width: 345px;
 }
-.image2{
+
+.image1 {
     height: 250px;
 
 }
-.image3{
+
+.image2 {
     height: 250px;
 
 }
-.image4{
+
+.image3 {
     height: 250px;
 
 }
-.Butt{
-   
+
+.image4 {
+    height: 250px;
+
+}
+
+.Butt {
+
     margin-left: 78px;
 
 
 }
-.tit{
+
+.tit {
     font-size: 35px;
 
     text-align: center;
