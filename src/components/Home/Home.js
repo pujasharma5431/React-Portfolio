@@ -9,6 +9,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Box from "@material-ui/core/Box";
+import { shadows } from '@material-ui/system';
 
 
 export default class Home extends Component {
@@ -20,7 +21,7 @@ export default class Home extends Component {
 
                 <Grid container>
 
-                    <Grid item xs={12} sm={12} md={5}>
+                    <Grid item xs={12} sm={6} md={4}>
 
 
                         <div style={{
@@ -57,22 +58,16 @@ export default class Home extends Component {
                                 }}
                                 >About </Button>
                             </div>
+                            
+                           
                             <div>
-
+                            
                                 <Button href="#"
 
                                         variant="contained" style={{
                                     backgroundColor: "rgb(114,114,114)",
-                                    margin: "5px"
-                                }}
-                                >Projects </Button>
-                            </div>
-                            <div>
-                                <Button href="#"
-
-                                        variant="contained" style={{
-                                    backgroundColor: "rgb(114,114,114)",
-                                    margin: "5px"
+                                    margin: "5px",
+                                    paddingLeft: "10px",
 
                                 }}
                                 >Contact </Button>
@@ -80,7 +75,7 @@ export default class Home extends Component {
                         </ButtonGroup>
 
                         <ButtonGroup style={{
-                            paddingLeft: "90px",
+                            paddingLeft: "35px",
                             paddingTop: "10px",
                             color: "#718792"
 
@@ -130,7 +125,7 @@ export default class Home extends Component {
                     </Grid>
 
 
-                    <Grid item xs={1} sm={1} md={1}>
+                    <Grid item xs={0} sm={0} md={2}>
 
                     </Grid>
 
@@ -152,19 +147,24 @@ export default class Home extends Component {
 
 
                     <Grid
-                        // style={{backgroundColor: "#343A40"}}
+                        // style={{backgroundColor: }}
                         item
                         md={4}
-                        sm={12}
-                        xs="none"
+                        sm={7}
+                        // xs="none"
                     >
-                        <div className={"photo"}>
+                        <div className={"photo"} style={{
+                           
+                           clipPath: " circle(33.1% at 50% 50%)"
+
+                        }}>
                             <Box display={{xs: "none", md: "block", sm: "block"}}>
                                 <img src={Myy}/>
+                                  
                             </Box>
                         </div>
                     </Grid>
-                    {/*<Grid item md={2} sm={6}></Grid>*/}
+                    <Grid item md={2} sm={6}></Grid>
 
 
                 </Grid>
