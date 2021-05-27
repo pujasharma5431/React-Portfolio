@@ -1,29 +1,5 @@
-.about{
-    color: rgb(12, 12, 12);
-    text-align: justify;
-    padding: 15px;
-}
-.education{
-    color: white;
-}
-.work{
-    color: white;
-    text-align: center;
-}
-.heading{
-    color:#615f5f;
-    text-align: -moz-left;
-    margin-top: 20px;
-    padding: 10px 10px 0px 10px;
+button[type]{
+    border: none;
+    padding: 0;
 
-}
-.heading-interests{
-    color: white;
-    margin-top: -20px;
-    padding-left: 10px ;
-}
-
-.skills{
-    color: white;
-    text-align: left;
 }

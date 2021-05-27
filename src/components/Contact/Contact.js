@@ -3,9 +3,17 @@ import React, { Component } from 'react'
 export default class Contact extends Component {
     render() {
         return (
-            <div>
-               Contact
-            </div>
+          
+                <form>
+                    <div>
+                        <label>email</label>
+                        <input type="email"/>
+                    </div>
+                    
+
+                    
+                </form>
+            
         )
     }
 }
