@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d99c3fc-af89-4dc3-b372-e4c72beae07b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Homedemo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationComp/NavigComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationComp/NavigComp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,11 @@
       <workItem from="1622049791496" duration="2202000" />
       <workItem from="1622130778263" duration="29000" />
       <workItem from="1622130819209" duration="37000" />
-      <workItem from="1622130869214" duration="3383000" />
+      <workItem from="1622130869214" duration="3766000" />
+      <workItem from="1622173380740" duration="19000" />
+      <workItem from="1622178592790" duration="531000" />
+      <workItem from="1622183488930" duration="1020000" />
+      <workItem from="1622188824102" duration="6000" />
     </task>
     <servers />
   </component>
